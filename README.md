@@ -1,6 +1,12 @@
 <p align="center">
-  <h3 align="center">Games With Python</h3>
+  <h3 align="center">Projects With Python</h3>
 </p>
 
-## About the project
-A compilation of games displayed on the console using Python in version 3.9.4
+## Sobre el proyecto
+Una compilación de proyectos en consola usando Python en la versión 3.9.4 o superior
+
+## Youtube-Downloader
+Para usar este proyecto es necesario instalar **PyTube** _con la siguiente linea de codigo_
+```
+$ pip install pytube
+```

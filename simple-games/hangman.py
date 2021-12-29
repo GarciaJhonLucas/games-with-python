@@ -1,5 +1,15 @@
+#!/usr/bin/env python
+
+import signal
+import sys
 import random
 from os import system
+
+def signal_handler(signal, frame):
+  system("clear")
+  sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
 
 hung_images = ['''
  +---+
@@ -103,8 +113,9 @@ def get_attempt(tested_letters):
             return attempt
 
 def new_game():
-    print('Do you want to play again? (yes or no)')
-    return input().lower().startswith('s')
+    print ('Do you want to play again? (yes or no)')
+    print ('Yes: y\n No: n \n')
+    return input().lower().startswith('y')
 
 incorrect_letters = ''
 correct_letters = ''
