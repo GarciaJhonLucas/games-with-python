@@ -10,3 +10,13 @@ Para usar este proyecto es necesario instalar **PyTube** _con la siguiente linea
 ```
 $ pip install pytube
 ```
+## block-sites
+Al ejecutarlo como administrador, te permite bloquear sitios web no deseados
+
+## animations
+Animaciones realizadas con **turtle** es necesario instalar **turtle** _con la siguiente linea de codigo_
+```
+$ pip install PythonTurtle
+```
+
+
