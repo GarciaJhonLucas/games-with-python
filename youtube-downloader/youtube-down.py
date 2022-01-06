@@ -23,9 +23,9 @@ print (Cyan + "==================================" + Color_Off)
 
 option = input("Audio: A | Video V | Salir X: ")
 
-while option.isspace() or len(option) <= 1:
+while option.isspace():
 	print (Red + "ERROR Ingrese una OPCION")
-	option = input("Audio: A | Video V: ")
+	option = input(Color_Off+"Audio: A | Video V | Salir X: ")
 
 if option.upper() == "X":
     sys.exit(0)
@@ -35,4 +35,5 @@ else:
 	stream = yt.streams.get_highest_resolution()
 
 stream.download(os.path.expanduser('~/Downloads'))
+print (Cyan + "=======================" + Color_Off)
 print (Cyan + "downloaded successfully" + Color_Off)
