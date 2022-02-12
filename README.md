@@ -18,5 +18,3 @@ Animaciones realizadas con **turtle** es necesario instalar **turtle** _con la s
 ```
 $ pip install PythonTurtle
 ```
-
-
